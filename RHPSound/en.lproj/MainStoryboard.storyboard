@@ -1,23 +1,420 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--View Controller-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" image="Frank1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3Qa-A3-tZa">
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="qNF-1t-JUn" appends="YES" id="8yI-iF-BZ8"/>
+                                </connections>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Titles.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="g4z-JV-cTQ">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="Kd1-yi-BlC"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DhN-On-rvp">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="AAL-EN-Hy4"/>
+                                    <constraint firstAttribute="height" constant="87" id="lJF-eG-jm5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="Lips.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushButton" destination="2" eventType="touchUpInside" id="QAi-fR-QM9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yrC-9C-DA5">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="7Pe-AY-d05"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="Lips.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushButton2" destination="2" eventType="touchUpInside" id="vb4-GI-CJY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXS-qb-gjf">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="gdf-4d-Ofz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="Lips.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushButton3" destination="2" eventType="touchUpInside" id="wlW-we-iXb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2jP-Ne-uC8">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="8pR-6S-rda"/>
+                                    <constraint firstAttribute="height" constant="87" id="m0N-6R-4cu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="Lips.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushButton4" destination="2" eventType="touchUpInside" id="rtq-7A-ICs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mab-3W-KrL">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="eOF-Au-FgZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="Lips.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushButton5" destination="2" eventType="touchUpInside" id="Qwn-KQ-mQW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJu-tp-ELB">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="iUQ-Zl-SI4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="Lips.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushButton20" destination="2" eventType="touchUpInside" id="1ni-9n-UeM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t2p-hu-MvD">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="JUE-id-H0o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="Lips.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushButton7" destination="2" eventType="touchUpInside" id="Rax-mb-XRR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pqt-et-uE0">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="Lips.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushButton8" destination="2" eventType="touchUpInside" id="V2g-XA-TQi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ela-WW-g11">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="Lips.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushButton9" destination="2" eventType="touchUpInside" id="kb0-9u-RS5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHQ-ar-ZCs">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="gP0-Me-kLo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="Lips.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushButton17" destination="2" eventType="touchUpInside" id="dDk-Vt-Xhf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KdV-qd-GHR">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="Lips.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushButton12" destination="2" eventType="touchUpInside" id="Ayj-Ao-aXB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nc0-vs-gbi">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="4MC-Lt-Rfn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="Lips.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushButton21" destination="2" eventType="touchUpInside" id="rR3-YD-BwW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LOd-yv-KRP">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="QLT-6d-yrY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="Lips.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushButton11" destination="2" eventType="touchUpInside" id="M4b-RU-Vcm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odm-8V-WtN">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="nfR-j8-0Sp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="Lips.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushButton13" destination="2" eventType="touchUpInside" id="feJ-XR-Swx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWO-oj-3ox">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="Lips.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushButton19" destination="2" eventType="touchUpInside" id="b6z-ax-OOF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nns-Nt-FMv">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="UO9-zq-Ava"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="Lips.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushButton14" destination="2" eventType="touchUpInside" id="MEp-cJ-f7i"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOe-Go-I3y">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="Bbl-jy-gWB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="Lips.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushButton16" destination="2" eventType="touchUpInside" id="mCc-ur-wDR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YVh-BE-WsY">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="JWf-H6-kHK"/>
+                                    <constraint firstAttribute="width" constant="73" id="yV1-3W-Ft7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal" title="STOP" image="Dialog-stop_icon.png">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="stop" destination="2" eventType="touchUpInside" id="Msi-qW-z13"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GWO-oj-3ox" firstAttribute="trailing" secondItem="nc0-vs-gbi" secondAttribute="trailing" type="default" id="1xm-6q-GC2"/>
+                            <constraint firstItem="GWO-oj-3ox" firstAttribute="leading" secondItem="OJu-tp-ELB" secondAttribute="leading" type="default" id="33M-Sb-4i6"/>
+                            <constraint firstItem="3Qa-A3-tZa" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="5iC-El-DUC"/>
+                            <constraint firstItem="odm-8V-WtN" firstAttribute="trailing" secondItem="2jP-Ne-uC8" secondAttribute="trailing" type="default" id="63u-yq-EDA"/>
+                            <constraint firstItem="g4z-JV-cTQ" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="7cT-Z1-XHo"/>
+                            <constraint firstItem="pqt-et-uE0" firstAttribute="leading" secondItem="yrC-9C-DA5" secondAttribute="leading" type="default" id="8g3-lG-nUJ"/>
+                            <constraint firstItem="KdV-qd-GHR" firstAttribute="top" secondItem="BHQ-ar-ZCs" secondAttribute="top" type="default" id="961-AE-MRI"/>
+                            <constraint firstItem="3Qa-A3-tZa" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="CDO-08-OFG"/>
+                            <constraint firstItem="Mab-3W-KrL" firstAttribute="bottom" secondItem="OJu-tp-ELB" secondAttribute="bottom" type="default" id="DDh-SZ-99B"/>
+                            <constraint firstItem="LOd-yv-KRP" firstAttribute="leading" secondItem="pqt-et-uE0" secondAttribute="leading" type="default" id="EVt-Dl-BQT"/>
+                            <constraint firstItem="LOd-yv-KRP" firstAttribute="top" secondItem="3" secondAttribute="top" constant="230" id="GSJ-2b-hE6"/>
+                            <constraint firstItem="odm-8V-WtN" firstAttribute="leading" secondItem="SOe-Go-I3y" secondAttribute="leading" type="default" id="J1s-6d-HUI"/>
+                            <constraint firstItem="BHQ-ar-ZCs" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="JFJ-xa-XOv"/>
+                            <constraint firstItem="GWO-oj-3ox" firstAttribute="leading" secondItem="nc0-vs-gbi" secondAttribute="leading" type="default" id="JNw-VS-ynn"/>
+                            <constraint firstItem="Ela-WW-g11" firstAttribute="leading" secondItem="xXS-qb-gjf" secondAttribute="leading" type="default" id="LuZ-mo-bjX"/>
+                            <constraint firstItem="odm-8V-WtN" firstAttribute="leading" secondItem="2jP-Ne-uC8" secondAttribute="leading" type="default" id="MgR-jX-ly2"/>
+                            <constraint firstItem="LOd-yv-KRP" firstAttribute="trailing" secondItem="pqt-et-uE0" secondAttribute="trailing" type="default" id="NI7-6l-EFX"/>
+                            <constraint firstItem="2jP-Ne-uC8" firstAttribute="bottom" secondItem="Mab-3W-KrL" secondAttribute="bottom" type="default" id="Nlx-ca-ujI"/>
+                            <constraint firstItem="OJu-tp-ELB" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="210" id="O2j-2I-BqV"/>
+                            <constraint firstItem="Ela-WW-g11" firstAttribute="bottom" secondItem="pqt-et-uE0" secondAttribute="bottom" type="default" id="Owr-WF-j0c"/>
+                            <constraint firstItem="t2p-hu-MvD" firstAttribute="top" secondItem="3" secondAttribute="top" constant="166" id="Owr-mO-iog"/>
+                            <constraint firstItem="3Qa-A3-tZa" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="P2U-9X-Zwg"/>
+                            <constraint firstItem="DhN-On-rvp" firstAttribute="top" secondItem="3" secondAttribute="top" constant="28" id="PNg-hk-tiO"/>
+                            <constraint firstItem="Ela-WW-g11" firstAttribute="trailing" secondItem="xXS-qb-gjf" secondAttribute="trailing" type="default" id="PSh-xD-QYe"/>
+                            <constraint firstItem="pqt-et-uE0" firstAttribute="trailing" secondItem="yrC-9C-DA5" secondAttribute="trailing" type="default" id="PiS-ei-DWf"/>
+                            <constraint firstItem="BHQ-ar-ZCs" firstAttribute="trailing" secondItem="t2p-hu-MvD" secondAttribute="trailing" type="default" id="RKh-pe-qdf"/>
+                            <constraint firstItem="t2p-hu-MvD" firstAttribute="bottom" secondItem="pqt-et-uE0" secondAttribute="bottom" type="default" id="Ri4-oR-6bo"/>
+                            <constraint firstItem="t2p-hu-MvD" firstAttribute="top" secondItem="pqt-et-uE0" secondAttribute="top" type="default" id="Tcc-ED-dPx"/>
+                            <constraint firstItem="GWO-oj-3ox" firstAttribute="trailing" secondItem="OJu-tp-ELB" secondAttribute="trailing" type="default" id="Ubd-D4-Xjf"/>
+                            <constraint firstAttribute="bottom" secondItem="YVh-BE-WsY" secondAttribute="bottom" constant="11" id="VKd-qk-ftJ"/>
+                            <constraint firstItem="SOe-Go-I3y" firstAttribute="top" secondItem="3" secondAttribute="top" constant="376" id="VlS-jq-zRF"/>
+                            <constraint firstItem="xXS-qb-gjf" firstAttribute="bottom" secondItem="yrC-9C-DA5" secondAttribute="bottom" type="default" id="WHw-g9-nGJ"/>
+                            <constraint firstItem="YVh-BE-WsY" firstAttribute="centerX" secondItem="LOd-yv-KRP" secondAttribute="centerX" type="default" id="WrF-xO-rtb"/>
+                            <constraint firstItem="GWO-oj-3ox" firstAttribute="bottom" secondItem="odm-8V-WtN" secondAttribute="bottom" type="default" id="XER-Ec-Efo"/>
+                            <constraint firstItem="yrC-9C-DA5" firstAttribute="top" secondItem="DhN-On-rvp" secondAttribute="top" type="default" id="Zqy-uW-pek"/>
+                            <constraint firstItem="t2p-hu-MvD" firstAttribute="trailing" secondItem="DhN-On-rvp" secondAttribute="trailing" type="default" id="aKd-iJ-bah"/>
+                            <constraint firstItem="g4z-JV-cTQ" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="cFs-cX-suL"/>
+                            <constraint firstItem="DhN-On-rvp" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="djm-9z-RQm"/>
+                            <constraint firstItem="odm-8V-WtN" firstAttribute="trailing" secondItem="SOe-Go-I3y" secondAttribute="trailing" type="default" id="dkp-GY-HWw"/>
+                            <constraint firstItem="xXS-qb-gjf" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="213" id="eEV-JX-1fT"/>
+                            <constraint firstItem="KdV-qd-GHR" firstAttribute="bottom" secondItem="BHQ-ar-ZCs" secondAttribute="bottom" type="default" id="f1b-Yi-KJy"/>
+                            <constraint firstItem="yrC-9C-DA5" firstAttribute="centerX" secondItem="g4z-JV-cTQ" secondAttribute="centerX" type="default" id="f3X-cO-etP"/>
+                            <constraint firstItem="odm-8V-WtN" firstAttribute="top" secondItem="GWO-oj-3ox" secondAttribute="top" type="default" id="fq7-XD-hCx"/>
+                            <constraint firstItem="2jP-Ne-uC8" firstAttribute="top" secondItem="3" secondAttribute="top" constant="92" id="gVi-Ai-ULK"/>
+                            <constraint firstItem="Nns-Nt-FMv" firstAttribute="leading" secondItem="Mab-3W-KrL" secondAttribute="leading" type="default" id="glh-EP-Yig"/>
+                            <constraint firstItem="Mab-3W-KrL" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="100" id="hon-7U-E45"/>
+                            <constraint firstItem="3Qa-A3-tZa" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="jtj-Rx-fRc"/>
+                            <constraint firstItem="odm-8V-WtN" firstAttribute="top" secondItem="3" secondAttribute="top" constant="306" id="kVT-KI-JZz"/>
+                            <constraint firstItem="OJu-tp-ELB" firstAttribute="top" secondItem="Mab-3W-KrL" secondAttribute="top" type="default" id="moM-NL-Uz1"/>
+                            <constraint firstItem="2jP-Ne-uC8" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="-3" id="mwg-bp-8ma"/>
+                            <constraint firstAttribute="bottom" secondItem="Nns-Nt-FMv" secondAttribute="bottom" constant="87" id="nnS-1E-1xF"/>
+                            <constraint firstItem="KdV-qd-GHR" firstAttribute="leading" secondItem="Ela-WW-g11" secondAttribute="leading" type="default" id="r62-3K-Y4X"/>
+                            <constraint firstItem="xXS-qb-gjf" firstAttribute="top" secondItem="yrC-9C-DA5" secondAttribute="top" type="default" id="rBr-yu-nvW"/>
+                            <constraint firstItem="KdV-qd-GHR" firstAttribute="trailing" secondItem="Ela-WW-g11" secondAttribute="trailing" type="default" id="rFj-2l-K77"/>
+                            <constraint firstItem="g4z-JV-cTQ" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="uCO-bY-XhG"/>
+                            <constraint firstItem="pqt-et-uE0" firstAttribute="top" secondItem="Ela-WW-g11" secondAttribute="top" type="default" id="w0b-Md-iD4"/>
+                            <constraint firstItem="nc0-vs-gbi" firstAttribute="top" secondItem="3" secondAttribute="top" constant="378" id="x1d-oo-iD2"/>
+                            <constraint firstItem="Nns-Nt-FMv" firstAttribute="trailing" secondItem="Mab-3W-KrL" secondAttribute="trailing" type="default" id="xHn-oW-k9d"/>
+                            <constraint firstItem="BHQ-ar-ZCs" firstAttribute="top" secondItem="3" secondAttribute="top" constant="236" id="xQJ-Vm-dpG"/>
+                            <constraint firstItem="yrC-9C-DA5" firstAttribute="bottom" secondItem="DhN-On-rvp" secondAttribute="bottom" type="default" id="xVI-hC-bzq"/>
+                            <constraint firstItem="2jP-Ne-uC8" firstAttribute="top" secondItem="Mab-3W-KrL" secondAttribute="top" type="default" id="y1o-R3-R3A"/>
+                            <constraint firstItem="t2p-hu-MvD" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="yeX-tc-V9i"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="qNF-1t-JUn"/>
             </objects>
+            <point key="canvasLocation" x="-173" y="23"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Dialog-stop_icon.png" width="500" height="500"/>
+        <image name="Frank1.jpg" width="1089" height="1418"/>
+        <image name="Lips.png" width="500" height="400"/>
+        <image name="Titles.jpg" width="491" height="123"/>
+    </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="play"/>
+                <relationship kind="action" name="pushButton"/>
+                <relationship kind="action" name="pushButton10"/>
+                <relationship kind="action" name="pushButton11"/>
+                <relationship kind="action" name="pushButton12"/>
+                <relationship kind="action" name="pushButton13"/>
+                <relationship kind="action" name="pushButton14"/>
+                <relationship kind="action" name="pushButton15"/>
+                <relationship kind="action" name="pushButton16"/>
+                <relationship kind="action" name="pushButton17"/>
+                <relationship kind="action" name="pushButton18"/>
+                <relationship kind="action" name="pushButton19"/>
+                <relationship kind="action" name="pushButton2"/>
+                <relationship kind="action" name="pushButton20"/>
+                <relationship kind="action" name="pushButton21"/>
+                <relationship kind="action" name="pushButton3"/>
+                <relationship kind="action" name="pushButton4"/>
+                <relationship kind="action" name="pushButton5"/>
+                <relationship kind="action" name="pushButton6"/>
+                <relationship kind="action" name="pushButton7"/>
+                <relationship kind="action" name="pushButton8"/>
+                <relationship kind="action" name="pushButton9"/>
+                <relationship kind="action" name="stop"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

@@ -14,10 +14,39 @@
 		B4111E5F172C7F8600D0F238 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4111E5E172C7F8600D0F238 /* main.m */; };
 		B4111E63172C7F8600D0F238 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4111E62172C7F8600D0F238 /* AppDelegate.m */; };
 		B4111E65172C7F8600D0F238 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B4111E64172C7F8600D0F238 /* Default.png */; };
-		B4111E67172C7F8600D0F238 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4111E66172C7F8600D0F238 /* Default@2x.png */; };
-		B4111E69172C7F8600D0F238 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4111E68172C7F8600D0F238 /* Default-568h@2x.png */; };
 		B4111E6C172C7F8600D0F238 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4111E6A172C7F8600D0F238 /* MainStoryboard.storyboard */; };
 		B4111E6F172C7F8600D0F238 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4111E6E172C7F8600D0F238 /* ViewController.m */; };
+		B4111E76172C7F9B00D0F238 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4111E75172C7F9A00D0F238 /* AVFoundation.framework */; };
+		B4111EAA172C821B00D0F238 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4111EA8172C821B00D0F238 /* Default-568h@2x.png */; };
+		B4111EAB172C821B00D0F238 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4111EA9172C821B00D0F238 /* Default@2x.png */; };
+		B4111EBD172CA47F00D0F238 /* lips 57.png in Resources */ = {isa = PBXBuildFile; fileRef = B4111EBC172CA47F00D0F238 /* lips 57.png */; };
+		B4111EC1172CA6CC00D0F238 /* lips 114x114 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B4111EC0172CA6CC00D0F238 /* lips 114x114 2.png */; };
+		B43601761738B4740085F34D /* Lips.png in Resources */ = {isa = PBXBuildFile; fileRef = B43601751738B4740085F34D /* Lips.png */; };
+		B43601781738B49C0085F34D /* Dialog-stop_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B43601771738B49C0085F34D /* Dialog-stop_icon.png */; };
+		B436017A1738B4B50085F34D /* Titles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B43601791738B4B50085F34D /* Titles.jpg */; };
+		B436017C1738B4BF0085F34D /* Frank1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B436017B1738B4BF0085F34D /* Frank1.jpg */; };
+		B43601911738B6CF0085F34D /* anticipation.wav in Resources */ = {isa = PBXBuildFile; fileRef = B436017D1738B6CF0085F34D /* anticipation.wav */; };
+		B43601921738B6CF0085F34D /* dominant.wav in Resources */ = {isa = PBXBuildFile; fileRef = B436017E1738B6CF0085F34D /* dominant.wav */; };
+		B43601931738B6CF0085F34D /* faywray.wav in Resources */ = {isa = PBXBuildFile; fileRef = B436017F1738B6CF0085F34D /* faywray.wav */; };
+		B43601941738B6CF0085F34D /* firstdayout.wav in Resources */ = {isa = PBXBuildFile; fileRef = B43601801738B6CF0085F34D /* firstdayout.wav */; };
+		B43601951738B6CF0085F34D /* floorshow.wav in Resources */ = {isa = PBXBuildFile; fileRef = B43601811738B6CF0085F34D /* floorshow.wav */; };
+		B43601961738B6CF0085F34D /* formaldress.wav in Resources */ = {isa = PBXBuildFile; fileRef = B43601821738B6CF0085F34D /* formaldress.wav */; };
+		B43601971738B6CF0085F34D /* howdidit.wav in Resources */ = {isa = PBXBuildFile; fileRef = B43601831738B6CF0085F34D /* howdidit.wav */; };
+		B43601981738B6CF0085F34D /* icanexplain.wav in Resources */ = {isa = PBXBuildFile; fileRef = B43601841738B6CF0085F34D /* icanexplain.wav */; };
+		B43601991738B6CF0085F34D /* imadeyou.wav in Resources */ = {isa = PBXBuildFile; fileRef = B43601851738B6CF0085F34D /* imadeyou.wav */; };
+		B436019A1738B6CF0085F34D /* knowledge.wav in Resources */ = {isa = PBXBuildFile; fileRef = B43601861738B6CF0085F34D /* knowledge.wav */; };
+		B436019B1738B6CF0085F34D /* lovesucess.wav in Resources */ = {isa = PBXBuildFile; fileRef = B43601871738B6CF0085F34D /* lovesucess.wav */; };
+		B436019C1738B6CF0085F34D /* noteasyGoodTime.wav in Resources */ = {isa = PBXBuildFile; fileRef = B43601881738B6CF0085F34D /* noteasyGoodTime.wav */; };
+		B436019D1738B6CF0085F34D /* pleasure.wav in Resources */ = {isa = PBXBuildFile; fileRef = B43601891738B6CF0085F34D /* pleasure.wav */; };
+		B436019E1738B6CF0085F34D /* rhps-7days.wav in Resources */ = {isa = PBXBuildFile; fileRef = B436018A1738B6CF0085F34D /* rhps-7days.wav */; };
+		B436019F1738B6CF0085F34D /* sealofapproval.wav in Resources */ = {isa = PBXBuildFile; fileRef = B436018B1738B6CF0085F34D /* sealofapproval.wav */; };
+		B43601A01738B6CF0085F34D /* stuck.wav in Resources */ = {isa = PBXBuildFile; fileRef = B436018C1738B6CF0085F34D /* stuck.wav */; };
+		B43601A11738B6CF0085F34D /* sweettrans.wav in Resources */ = {isa = PBXBuildFile; fileRef = B436018D1738B6CF0085F34D /* sweettrans.wav */; };
+		B43601A21738B6CF0085F34D /* tendersubject.wav in Resources */ = {isa = PBXBuildFile; fileRef = B436018E1738B6CF0085F34D /* tendersubject.wav */; };
+		B43601A31738B6CF0085F34D /* vulnerable.wav in Resources */ = {isa = PBXBuildFile; fileRef = B436018F1738B6CF0085F34D /* vulnerable.wav */; };
+		B43601A41738B6CF0085F34D /* youlikedit.wav in Resources */ = {isa = PBXBuildFile; fileRef = B43601901738B6CF0085F34D /* youlikedit.wav */; };
+		B43601A61738B6F50085F34D /* rhps-names 3 times.wav in Resources */ = {isa = PBXBuildFile; fileRef = B43601A51738B6F50085F34D /* rhps-names 3 times.wav */; };
+		B49B27CC172E1302003A634E /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49B27CB172E1302003A634E /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,11 +61,41 @@
 		B4111E61172C7F8600D0F238 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B4111E62172C7F8600D0F238 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B4111E64172C7F8600D0F238 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		B4111E66172C7F8600D0F238 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		B4111E68172C7F8600D0F238 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B4111E6B172C7F8600D0F238 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B4111E6D172C7F8600D0F238 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B4111E6E172C7F8600D0F238 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B4111E75172C7F9A00D0F238 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B4111EA8172C821B00D0F238 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B4111EA9172C821B00D0F238 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B4111EBC172CA47F00D0F238 /* lips 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lips 57.png"; sourceTree = "<group>"; };
+		B4111EBE172CA4DA00D0F238 /* lips 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lips 114x114.png"; sourceTree = "<group>"; };
+		B4111EC0172CA6CC00D0F238 /* lips 114x114 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lips 114x114 2.png"; sourceTree = "<group>"; };
+		B43601751738B4740085F34D /* Lips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Lips.png; path = Lips/Lips.png; sourceTree = SOURCE_ROOT; };
+		B43601771738B49C0085F34D /* Dialog-stop_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Dialog-stop_icon.png"; path = "Pictures/Dialog-stop_icon.png"; sourceTree = SOURCE_ROOT; };
+		B43601791738B4B50085F34D /* Titles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Titles.jpg; path = Pictures/Titles.jpg; sourceTree = SOURCE_ROOT; };
+		B436017B1738B4BF0085F34D /* Frank1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Frank1.jpg; path = Pictures/Frank1.jpg; sourceTree = SOURCE_ROOT; };
+		B436017D1738B6CF0085F34D /* anticipation.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = anticipation.wav; path = "Rocky Horror Picture Show Wave/Frank/anticipation.wav"; sourceTree = SOURCE_ROOT; };
+		B436017E1738B6CF0085F34D /* dominant.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dominant.wav; path = "Rocky Horror Picture Show Wave/Frank/dominant.wav"; sourceTree = SOURCE_ROOT; };
+		B436017F1738B6CF0085F34D /* faywray.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = faywray.wav; path = "Rocky Horror Picture Show Wave/Frank/faywray.wav"; sourceTree = SOURCE_ROOT; };
+		B43601801738B6CF0085F34D /* firstdayout.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = firstdayout.wav; path = "Rocky Horror Picture Show Wave/Frank/firstdayout.wav"; sourceTree = SOURCE_ROOT; };
+		B43601811738B6CF0085F34D /* floorshow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = floorshow.wav; path = "Rocky Horror Picture Show Wave/Frank/floorshow.wav"; sourceTree = SOURCE_ROOT; };
+		B43601821738B6CF0085F34D /* formaldress.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = formaldress.wav; path = "Rocky Horror Picture Show Wave/Frank/formaldress.wav"; sourceTree = SOURCE_ROOT; };
+		B43601831738B6CF0085F34D /* howdidit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = howdidit.wav; path = "Rocky Horror Picture Show Wave/Frank/howdidit.wav"; sourceTree = SOURCE_ROOT; };
+		B43601841738B6CF0085F34D /* icanexplain.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = icanexplain.wav; path = "Rocky Horror Picture Show Wave/Frank/icanexplain.wav"; sourceTree = SOURCE_ROOT; };
+		B43601851738B6CF0085F34D /* imadeyou.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = imadeyou.wav; path = "Rocky Horror Picture Show Wave/Frank/imadeyou.wav"; sourceTree = SOURCE_ROOT; };
+		B43601861738B6CF0085F34D /* knowledge.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = knowledge.wav; path = "Rocky Horror Picture Show Wave/Frank/knowledge.wav"; sourceTree = SOURCE_ROOT; };
+		B43601871738B6CF0085F34D /* lovesucess.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = lovesucess.wav; path = "Rocky Horror Picture Show Wave/Frank/lovesucess.wav"; sourceTree = SOURCE_ROOT; };
+		B43601881738B6CF0085F34D /* noteasyGoodTime.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = noteasyGoodTime.wav; path = "Rocky Horror Picture Show Wave/Frank/noteasyGoodTime.wav"; sourceTree = SOURCE_ROOT; };
+		B43601891738B6CF0085F34D /* pleasure.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pleasure.wav; path = "Rocky Horror Picture Show Wave/Frank/pleasure.wav"; sourceTree = SOURCE_ROOT; };
+		B436018A1738B6CF0085F34D /* rhps-7days.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "rhps-7days.wav"; path = "Rocky Horror Picture Show Wave/Frank/rhps-7days.wav"; sourceTree = SOURCE_ROOT; };
+		B436018B1738B6CF0085F34D /* sealofapproval.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = sealofapproval.wav; path = "Rocky Horror Picture Show Wave/Frank/sealofapproval.wav"; sourceTree = SOURCE_ROOT; };
+		B436018C1738B6CF0085F34D /* stuck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = stuck.wav; path = "Rocky Horror Picture Show Wave/Frank/stuck.wav"; sourceTree = SOURCE_ROOT; };
+		B436018D1738B6CF0085F34D /* sweettrans.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = sweettrans.wav; path = "Rocky Horror Picture Show Wave/Frank/sweettrans.wav"; sourceTree = SOURCE_ROOT; };
+		B436018E1738B6CF0085F34D /* tendersubject.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = tendersubject.wav; path = "Rocky Horror Picture Show Wave/Frank/tendersubject.wav"; sourceTree = SOURCE_ROOT; };
+		B436018F1738B6CF0085F34D /* vulnerable.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = vulnerable.wav; path = "Rocky Horror Picture Show Wave/Frank/vulnerable.wav"; sourceTree = SOURCE_ROOT; };
+		B43601901738B6CF0085F34D /* youlikedit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = youlikedit.wav; path = "Rocky Horror Picture Show Wave/Frank/youlikedit.wav"; sourceTree = SOURCE_ROOT; };
+		B43601A51738B6F50085F34D /* rhps-names 3 times.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "rhps-names 3 times.wav"; path = "Rocky Horror Picture Show Wave/Dr. Scott/rhps-names 3 times.wav"; sourceTree = SOURCE_ROOT; };
+		B49B27CB172E1302003A634E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +103,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B49B27CC172E1302003A634E /* iAd.framework in Frameworks */,
 				B4111E53172C7F8600D0F238 /* UIKit.framework in Frameworks */,
 				B4111E55172C7F8600D0F238 /* Foundation.framework in Frameworks */,
 				B4111E57172C7F8600D0F238 /* CoreGraphics.framework in Frameworks */,
+				B4111E76172C7F9B00D0F238 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +117,9 @@
 		B4111E46172C7F8600D0F238 = {
 			isa = PBXGroup;
 			children = (
+				B4111EC0172CA6CC00D0F238 /* lips 114x114 2.png */,
+				B4111EBE172CA4DA00D0F238 /* lips 114x114.png */,
+				B4111EBC172CA47F00D0F238 /* lips 57.png */,
 				B4111E58172C7F8600D0F238 /* RHPSound */,
 				B4111E51172C7F8600D0F238 /* Frameworks */,
 				B4111E50172C7F8600D0F238 /* Products */,
@@ -73,6 +137,8 @@
 		B4111E51172C7F8600D0F238 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B49B27CB172E1302003A634E /* iAd.framework */,
+				B4111E75172C7F9A00D0F238 /* AVFoundation.framework */,
 				B4111E52172C7F8600D0F238 /* UIKit.framework */,
 				B4111E54172C7F8600D0F238 /* Foundation.framework */,
 				B4111E56172C7F8600D0F238 /* CoreGraphics.framework */,
@@ -96,15 +162,48 @@
 		B4111E59172C7F8600D0F238 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B43601771738B49C0085F34D /* Dialog-stop_icon.png */,
+				B43601751738B4740085F34D /* Lips.png */,
+				B43601791738B4B50085F34D /* Titles.jpg */,
+				B436017B1738B4BF0085F34D /* Frank1.jpg */,
+				B4111E7B172C808700D0F238 /* Frank */,
 				B4111E5A172C7F8600D0F238 /* RHPSound-Info.plist */,
 				B4111E5B172C7F8600D0F238 /* InfoPlist.strings */,
 				B4111E5E172C7F8600D0F238 /* main.m */,
 				B4111E60172C7F8600D0F238 /* RHPSound-Prefix.pch */,
+				B4111EA8172C821B00D0F238 /* Default-568h@2x.png */,
+				B4111EA9172C821B00D0F238 /* Default@2x.png */,
 				B4111E64172C7F8600D0F238 /* Default.png */,
-				B4111E66172C7F8600D0F238 /* Default@2x.png */,
-				B4111E68172C7F8600D0F238 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4111E7B172C808700D0F238 /* Frank */ = {
+			isa = PBXGroup;
+			children = (
+				B436017D1738B6CF0085F34D /* anticipation.wav */,
+				B436017E1738B6CF0085F34D /* dominant.wav */,
+				B436017F1738B6CF0085F34D /* faywray.wav */,
+				B43601801738B6CF0085F34D /* firstdayout.wav */,
+				B43601811738B6CF0085F34D /* floorshow.wav */,
+				B43601821738B6CF0085F34D /* formaldress.wav */,
+				B43601831738B6CF0085F34D /* howdidit.wav */,
+				B43601841738B6CF0085F34D /* icanexplain.wav */,
+				B43601851738B6CF0085F34D /* imadeyou.wav */,
+				B43601861738B6CF0085F34D /* knowledge.wav */,
+				B43601871738B6CF0085F34D /* lovesucess.wav */,
+				B43601881738B6CF0085F34D /* noteasyGoodTime.wav */,
+				B43601891738B6CF0085F34D /* pleasure.wav */,
+				B436018A1738B6CF0085F34D /* rhps-7days.wav */,
+				B436018B1738B6CF0085F34D /* sealofapproval.wav */,
+				B436018C1738B6CF0085F34D /* stuck.wav */,
+				B436018D1738B6CF0085F34D /* sweettrans.wav */,
+				B436018E1738B6CF0085F34D /* tendersubject.wav */,
+				B43601A51738B6F50085F34D /* rhps-names 3 times.wav */,
+				B436018F1738B6CF0085F34D /* vulnerable.wav */,
+				B43601901738B6CF0085F34D /* youlikedit.wav */,
+			);
+			name = Frank;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +259,36 @@
 			files = (
 				B4111E5D172C7F8600D0F238 /* InfoPlist.strings in Resources */,
 				B4111E65172C7F8600D0F238 /* Default.png in Resources */,
-				B4111E67172C7F8600D0F238 /* Default@2x.png in Resources */,
-				B4111E69172C7F8600D0F238 /* Default-568h@2x.png in Resources */,
 				B4111E6C172C7F8600D0F238 /* MainStoryboard.storyboard in Resources */,
+				B4111EAA172C821B00D0F238 /* Default-568h@2x.png in Resources */,
+				B4111EAB172C821B00D0F238 /* Default@2x.png in Resources */,
+				B4111EBD172CA47F00D0F238 /* lips 57.png in Resources */,
+				B4111EC1172CA6CC00D0F238 /* lips 114x114 2.png in Resources */,
+				B43601761738B4740085F34D /* Lips.png in Resources */,
+				B43601781738B49C0085F34D /* Dialog-stop_icon.png in Resources */,
+				B436017A1738B4B50085F34D /* Titles.jpg in Resources */,
+				B436017C1738B4BF0085F34D /* Frank1.jpg in Resources */,
+				B43601911738B6CF0085F34D /* anticipation.wav in Resources */,
+				B43601921738B6CF0085F34D /* dominant.wav in Resources */,
+				B43601931738B6CF0085F34D /* faywray.wav in Resources */,
+				B43601941738B6CF0085F34D /* firstdayout.wav in Resources */,
+				B43601951738B6CF0085F34D /* floorshow.wav in Resources */,
+				B43601961738B6CF0085F34D /* formaldress.wav in Resources */,
+				B43601971738B6CF0085F34D /* howdidit.wav in Resources */,
+				B43601981738B6CF0085F34D /* icanexplain.wav in Resources */,
+				B43601991738B6CF0085F34D /* imadeyou.wav in Resources */,
+				B436019A1738B6CF0085F34D /* knowledge.wav in Resources */,
+				B436019B1738B6CF0085F34D /* lovesucess.wav in Resources */,
+				B436019C1738B6CF0085F34D /* noteasyGoodTime.wav in Resources */,
+				B436019D1738B6CF0085F34D /* pleasure.wav in Resources */,
+				B436019E1738B6CF0085F34D /* rhps-7days.wav in Resources */,
+				B436019F1738B6CF0085F34D /* sealofapproval.wav in Resources */,
+				B43601A01738B6CF0085F34D /* stuck.wav in Resources */,
+				B43601A11738B6CF0085F34D /* sweettrans.wav in Resources */,
+				B43601A21738B6CF0085F34D /* tendersubject.wav in Resources */,
+				B43601A31738B6CF0085F34D /* vulnerable.wav in Resources */,
+				B43601A41738B6CF0085F34D /* youlikedit.wav in Resources */,
+				B43601A61738B6F50085F34D /* rhps-names 3 times.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +338,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sami Makhlouf (F2DFEY6C2K)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -227,6 +354,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "6E2B3D09-D8E2-48B5-B319-9AC6BE039BAC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6E2B3D09-D8E2-48B5-B319-9AC6BE039BAC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -242,7 +371,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sami Makhlouf (7WRBSE92MV)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -250,6 +380,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "6E2B3D09-D8E2-48B5-B319-9AC6BE039BAC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6E2B3D09-D8E2-48B5-B319-9AC6BE039BAC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -258,10 +390,15 @@
 		B4111E73172C7F8600D0F238 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RHPSound/RHPSound-Prefix.pch";
 				INFOPLIST_FILE = "RHPSound/RHPSound-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				New_Setting = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -269,10 +406,15 @@
 		B4111E74172C7F8600D0F238 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RHPSound/RHPSound-Prefix.pch";
 				INFOPLIST_FILE = "RHPSound/RHPSound-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				New_Setting = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -296,6 +438,7 @@
 				B4111E74172C7F8600D0F238 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
